@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turborepo.dev/schema.json",
+  "futureFlags": { "affectedUsingTaskInputs": true },
+  "tasks": {
+    "//#plain": { "inputs": ["infra/**"] },
+    "//#prefixed": { "inputs": ["$TURBO_ROOT$/infra/**"] },
+    "//#dotslash": { "inputs": ["./infra/**"] },
+    "build": { "inputs": ["$TURBO_DEFAULT$", "$TURBO_ROOT$/infra/**"] },
+    "test": { "inputs": ["src/**"] },
+    "lint": { "inputs": ["./src/**"] }
+  }
+}

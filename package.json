@@ -1,0 +1,2 @@
+{ "name": "repro", "private": true, "packageManager": "pnpm@10.18.0", "devDependencies": { "turbo": "2.11.3-canary.2" },
+  "scripts": { "plain": "echo plain", "prefixed": "echo prefixed", "dotslash": "echo dotslash" } }
