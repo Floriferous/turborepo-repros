@@ -1,0 +1,14 @@
+{
+  "$schema": "https://turborepo.dev/schema.json",
+  "boundaries": {
+    "tags": {
+      "alpha": { "dependencies": { "deny": ["omega"] } },
+      "beta": { "dependencies": { "deny": ["omega"] } },
+      "gamma": { "dependencies": { "deny": ["omega"] } },
+      "delta": { "dependencies": { "deny": ["omega"] } },
+      "epsilon": { "dependencies": { "deny": ["omega"] } },
+      "omega": {}
+    }
+  },
+  "tasks": { "build": {} }
+}

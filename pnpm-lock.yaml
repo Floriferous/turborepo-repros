@@ -1,0 +1,80 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      turbo:
+        specifier: 2.11.3-canary.2
+        version: 2.11.3-canary.2
+
+  apps/app: {}
+
+packages:
+
+  '@turbo/darwin-64@2.11.3-canary.2':
+    resolution: {integrity: sha512-MtLBGmT1eg8SEUsBbzYEuLEb6f1DywBT8SSv1XQ4Kx0TZzocP+/NrGBS4GEahGPHutMgG4L2qKMDPcz4/+wuMg==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@turbo/darwin-arm64@2.11.3-canary.2':
+    resolution: {integrity: sha512-stvpS774KBReaazDGjvXOxQVdXybib8HgQUup4uiM3Hatf0H6IBYX0d1K8o0GWs8BxzYuYA75vdg/q2zP9UUgg==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@turbo/linux-64@2.11.3-canary.2':
+    resolution: {integrity: sha512-yBdLIIvpTXyzsHIOimw2yTxTRSi9OSr1F3I5amS22gWHXlMR9+fDih10M2UwlkcCy2Il4LoR1BB0Xnh5WK3/bA==}
+    cpu: [x64]
+    os: [android, linux]
+
+  '@turbo/linux-arm64@2.11.3-canary.2':
+    resolution: {integrity: sha512-TC06HyswYriLpFAaPnZ/aQcltNyCotEX2A2risEaSI13uTwvNVhXVQPJ5Y09CxTDC9DANqOf5lHsLFQLZaJi4Q==}
+    cpu: [arm64]
+    os: [android, linux]
+
+  '@turbo/windows-64@2.11.3-canary.2':
+    resolution: {integrity: sha512-e1DAcHrOHwXndYgpFUQCWbcLt+IkWIeCF+Tc1IAZbW6MVfLtRHkzH1LfMfTo9R/Ew3Z5lg8NNX5opKLkhsgoQg==}
+    cpu: [x64]
+    os: [win32]
+
+  '@turbo/windows-arm64@2.11.3-canary.2':
+    resolution: {integrity: sha512-V3P9Md0FgKIvwdpfVbPBwF354sfuX3g/oACxRdeqQYxVC7dNYr6nNnCbyFOJpecH+bge2+I2YADFqxWjJpDP1Q==}
+    cpu: [arm64]
+    os: [win32]
+
+  turbo@2.11.3-canary.2:
+    resolution: {integrity: sha512-bLY8CQmtXNeb/NXKn8z0E4m+caBAeJjS0ayduMtGreu5Hfa236YLL5PsSDewdufNqLVab+RNaNDFtZMsCowKDg==}
+    hasBin: true
+
+snapshots:
+
+  '@turbo/darwin-64@2.11.3-canary.2':
+    optional: true
+
+  '@turbo/darwin-arm64@2.11.3-canary.2':
+    optional: true
+
+  '@turbo/linux-64@2.11.3-canary.2':
+    optional: true
+
+  '@turbo/linux-arm64@2.11.3-canary.2':
+    optional: true
+
+  '@turbo/windows-64@2.11.3-canary.2':
+    optional: true
+
+  '@turbo/windows-arm64@2.11.3-canary.2':
+    optional: true
+
+  turbo@2.11.3-canary.2:
+    optionalDependencies:
+      '@turbo/darwin-64': 2.11.3-canary.2
+      '@turbo/darwin-arm64': 2.11.3-canary.2
+      '@turbo/linux-64': 2.11.3-canary.2
+      '@turbo/linux-arm64': 2.11.3-canary.2
+      '@turbo/windows-64': 2.11.3-canary.2
+      '@turbo/windows-arm64': 2.11.3-canary.2
