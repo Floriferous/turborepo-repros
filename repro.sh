@@ -11,5 +11,5 @@ JS
 git status --short --ignored apps/app/dist
 for version in 2.8.11 2.8.12 2.11.2 2.11.3-canary.2; do
   echo "== turbo@$version boundaries"
-  pnpm dlx "turbo@$version" --skip-infer boundaries 2>&1 | grep -E "cannot import|Checked"
+  pnpm dlx "turbo@$version" --skip-infer boundaries 2>&1 | grep -oE "cannot import package \`[^\`]+\`|Checked .*"
 done
