@@ -1,7 +1,3 @@
-# Turborepo reproductions
+# `turbo boundaries` checks gitignored files since 2.8.12
 
-One minimal reproduction per branch. Each branch is a standalone workspace: clone, check out the branch, run `./repro.sh`.
-
-- `affected-dot-slash-inputs`
-- `boundaries-gitignored-files`
-- `prune-boundaries-tag-order`
+Run `./repro.sh` (needs pnpm).
