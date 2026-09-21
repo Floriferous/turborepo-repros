@@ -1,0 +1,1 @@
+{ "name": "repro", "private": true, "packageManager": "pnpm@10.18.0", "dependencies": { "a": "workspace:*" }, "devDependencies": { "turbo": "2.11.3-canary.3" } }

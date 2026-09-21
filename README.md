@@ -1,8 +1,3 @@
-# Turborepo reproductions
+# `turbo run --affected` skips tasks when a root internal dependency changes (`affectedUsingTaskInputs`)
 
-One minimal reproduction per branch. Each branch is a standalone workspace: clone, check out the branch, run `./repro.sh`.
-
-- `affected-dot-slash-inputs`
-- `boundaries-gitignored-files`
-- `prune-boundaries-tag-order`
-- `affected-negated-global-dependencies`
+Run `./repro.sh` (needs pnpm and jq).
