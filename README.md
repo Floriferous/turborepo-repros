@@ -5,3 +5,4 @@ One minimal reproduction per branch. Each branch is a standalone workspace: clon
 - `affected-dot-slash-inputs`
 - `boundaries-gitignored-files`
 - `prune-boundaries-tag-order`
+- `affected-negated-global-dependencies`
